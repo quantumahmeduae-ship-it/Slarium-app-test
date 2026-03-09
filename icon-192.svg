@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192">
+  <rect width="192" height="192" rx="40" fill="#0D0401"/>
+  <rect width="192" height="192" rx="40" fill="url(#bg)"/>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#B5230A" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0D0401"/>
+    </radialGradient>
+    <radialGradient id="sg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#D4A017" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#B5230A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- Aztec sun glow -->
+  <circle cx="96" cy="96" r="70" fill="url(#sg)" opacity="0.3"/>
+  <!-- Sun rays -->
+  <polygon points="96,30 90,55 102,55" fill="#D4A017" opacity="0.7"/>
+  <polygon points="96,162 90,137 102,137" fill="#D4A017" opacity="0.7"/>
+  <polygon points="30,96 55,90 55,102" fill="#D4A017" opacity="0.7"/>
+  <polygon points="162,96 137,90 137,102" fill="#D4A017" opacity="0.7"/>
+  <polygon points="40,40 58,62 62,58" fill="#E8851A" opacity="0.6"/>
+  <polygon points="152,152 134,130 130,134" fill="#E8851A" opacity="0.6"/>
+  <polygon points="152,40 130,62 134,58" fill="#E8851A" opacity="0.6"/>
+  <polygon points="40,152 62,130 58,134" fill="#E8851A" opacity="0.6"/>
+  <!-- Center logo -->
+  <circle cx="96" cy="96" r="32" fill="rgba(181,35,10,0.3)" stroke="#D4A017" stroke-width="1.5" stroke-opacity="0.5"/>
+  <circle cx="96" cy="2.5" r="0" opacity="0"/>
+  <line x1="96" y1="64" x2="96" y2="128" stroke="#D4A017" stroke-width="1" stroke-opacity="0.4"/>
+  <line x1="64" y1="96" x2="128" y2="96" stroke="#D4A017" stroke-width="1" stroke-opacity="0.4"/>
+  <circle cx="96" cy="64" r="4" fill="#D4A017"/>
+  <circle cx="96" cy="128" r="4" fill="#D4A017" opacity="0.6"/>
+  <circle cx="64" cy="96" r="4" fill="#D4A017" opacity="0.7"/>
+  <circle cx="128" cy="96" r="4" fill="#D4A017" opacity="0.6"/>
+  <circle cx="96" cy="96" r="14" fill="rgba(212,160,23,0.2)"/>
+  <circle cx="96" cy="96" r="8" fill="#D4A017"/>
+  <circle cx="96" cy="96" r="4" fill="#1A0A02"/>
+  <!-- Bottom aztec border -->
+  <rect x="0" y="180" width="192" height="12" fill="#D4A017" opacity="0.3"/>
+</svg>
