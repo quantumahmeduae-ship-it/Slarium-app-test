@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.expanse.runner.RunTests" time="7.121" tests="34" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Lenovo\ExpanseFT_Automation\target\test-classes;C:\Users\Lenovo\ExpanseFT_Automation\target\classes;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Lenovo\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.35.0\wiremock-jre8-2.35.0.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-server\9.4.49.v20220914\jetty-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-http\9.4.49.v20220914\jetty-http-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-io\9.4.49.v20220914\jetty-io-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.49.v20220914\jetty-servlet-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-security\9.4.49.v20220914\jetty-security-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.49.v20220914\jetty-util-ajax-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.49.v20220914\jetty-servlets-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.49.v20220914\jetty-continuation-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-util\9.4.49.v20220914\jetty-util-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.49.v20220914\jetty-webapp-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.49.v20220914\jetty-xml-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.49.v20220914\jetty-proxy-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-client\9.4.49.v20220914\jetty-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.49.v20220914\http2-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.49.v20220914\http2-common-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.49.v20220914\http2-hpack-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.49.v20220914\jetty-alpn-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-java-server\9.4.49.v20220914\jetty-alpn-java-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-server\9.4.49.v20220914\jetty-alpn-openjdk8-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-java-client\9.4.49.v20220914\jetty-alpn-java-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.49.v20220914\jetty-alpn-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-client\9.4.49.v20220914\jetty-alpn-openjdk8-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\Lenovo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Lenovo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-legacy\2.9.0\xmlunit-legacy-2.9.0.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-placeholders\2.9.0\xmlunit-placeholders-2.9.0.jar;C:\Users\Lenovo\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.36.0\json-unit-core-2.36.0.jar;C:\Users\Lenovo\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Lenovo\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Lenovo\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Lenovo\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\Lenovo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Lenovo\.m2\repository\com\github\jknack\handlebars\4.3.1\handlebars-4.3.1.jar;C:\Users\Lenovo\.m2\repository\com\github\jknack\handlebars-helpers\4.3.1\handlebars-helpers-4.3.1.jar;C:\Users\Lenovo\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Karachi"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26\bin"/>
+    <property name="sun.java.command" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13030305510179498675\surefirebooter-20260420203928116_3.jar C:\Users\Lenovo\AppData\Local\Temp\surefire13030305510179498675 2026-04-20T20-39-27_897-jvmRun1 surefire-20260420203928116_1tmp surefire_0-20260420203928116_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Lenovo\ExpanseFT_Automation\target\test-classes;C:\Users\Lenovo\ExpanseFT_Automation\target\classes;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\Lenovo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy\4.0.6\groovy-4.0.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-xml\4.0.6\groovy-xml-4.0.6.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Lenovo\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Lenovo\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Lenovo\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\Lenovo\.m2\repository\org\apache\groovy\groovy-json\4.0.6\groovy-json-4.0.6.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\Lenovo\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\Lenovo\.m2\repository\com\github\tomakehurst\wiremock-jre8\2.35.0\wiremock-jre8-2.35.0.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-server\9.4.49.v20220914\jetty-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-http\9.4.49.v20220914\jetty-http-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-io\9.4.49.v20220914\jetty-io-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-servlet\9.4.49.v20220914\jetty-servlet-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-security\9.4.49.v20220914\jetty-security-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-util-ajax\9.4.49.v20220914\jetty-util-ajax-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-servlets\9.4.49.v20220914\jetty-servlets-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-continuation\9.4.49.v20220914\jetty-continuation-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-util\9.4.49.v20220914\jetty-util-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-webapp\9.4.49.v20220914\jetty-webapp-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-xml\9.4.49.v20220914\jetty-xml-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-proxy\9.4.49.v20220914\jetty-proxy-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-client\9.4.49.v20220914\jetty-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-server\9.4.49.v20220914\http2-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-common\9.4.49.v20220914\http2-common-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\http2\http2-hpack\9.4.49.v20220914\http2-hpack-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-server\9.4.49.v20220914\jetty-alpn-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-java-server\9.4.49.v20220914\jetty-alpn-java-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-server\9.4.49.v20220914\jetty-alpn-openjdk8-server-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-java-client\9.4.49.v20220914\jetty-alpn-java-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-client\9.4.49.v20220914\jetty-alpn-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\org\eclipse\jetty\jetty-alpn-openjdk8-client\9.4.49.v20220914\jetty-alpn-openjdk8-client-9.4.49.v20220914.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\Lenovo\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Lenovo\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Lenovo\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\Lenovo\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\Lenovo\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.4\jackson-core-2.13.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.4\jackson-annotations-2.13.4.jar;C:\Users\Lenovo\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.4.2\jackson-databind-2.13.4.2.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-core\2.9.0\xmlunit-core-2.9.0.jar;C:\Users\Lenovo\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Lenovo\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-legacy\2.9.0\xmlunit-legacy-2.9.0.jar;C:\Users\Lenovo\.m2\repository\org\xmlunit\xmlunit-placeholders\2.9.0\xmlunit-placeholders-2.9.0.jar;C:\Users\Lenovo\.m2\repository\net\javacrumbs\json-unit\json-unit-core\2.36.0\json-unit-core-2.36.0.jar;C:\Users\Lenovo\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar;C:\Users\Lenovo\.m2\repository\net\minidev\json-smart\2.4.7\json-smart-2.4.7.jar;C:\Users\Lenovo\.m2\repository\net\minidev\accessors-smart\2.4.7\accessors-smart-2.4.7.jar;C:\Users\Lenovo\.m2\repository\org\ow2\asm\asm\9.4\asm-9.4.jar;C:\Users\Lenovo\.m2\repository\net\sf\jopt-simple\jopt-simple\5.0.4\jopt-simple-5.0.4.jar;C:\Users\Lenovo\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Lenovo\.m2\repository\com\github\jknack\handlebars\4.3.1\handlebars-4.3.1.jar;C:\Users\Lenovo\.m2\repository\com\github\jknack\handlebars-helpers\4.3.1\handlebars-helpers-4.3.1.jar;C:\Users\Lenovo\.m2\repository\commons-fileupload\commons-fileupload\1.4\commons-fileupload-1.4.jar;C:\Users\Lenovo\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\Lenovo\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.24.0\allure-cucumber7-jvm-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\Lenovo\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\Lenovo\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Lenovo\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Lenovo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-03-17"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Lenovo\ExpanseFT_Automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Lenovo\AppData\Local\Temp\surefire13030305510179498675\surefirebooter-20260420203928116_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26+35-2893"/>
+    <property name="user.name" value="Lenovo"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Lenovo\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\Lenovo\AppData\Local\Temp\"/>
+    <property name="java.version" value="26"/>
+    <property name="user.dir" value="C:\Users\Lenovo\ExpanseFT_Automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Git\cmd;C:\Users\Lenovo\scoop\shims;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python314\Scripts\;C:\Python314\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Lenovo\AppData\Local\Android\Sdk\platform-tools;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Python\bin;C:\ProgramData\Lenovo\GitHubDesktop\bin;C:\Users\Lenovo\AppData\Local\GitHubDesktop\bin;C:\Users\Lenovo\AppData\Roaming\npm;C:\Maven\apache-maven-3.9.14\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26+35-2893"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="TC-001 to 004 - Registration Variations #1" classname="ExpanseFT Full Suite Automation" time="4.093">
+    <system-out><![CDATA[
+@Registration @Bulk
+Scenario Outline: TC-001 to 004 - Registration Variations                                                                  # src/test/resources/features/AccountManagement.feature:12
+  Given the API is stubbed for "POST" at "/account" with status 200 and body "{'idVerified': 'True', 'status': 'Success'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/account" with body "{'locationId': '38137'}"                                                # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                                     # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "idVerified" as "True"                                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="TC-001 to 004 - Registration Variations #2" classname="ExpanseFT Full Suite Automation" time="0.099">
+    <system-out><![CDATA[
+@Registration @Bulk
+Scenario Outline: TC-001 to 004 - Registration Variations                                                                        # src/test/resources/features/AccountManagement.feature:13
+  Given the API is stubbed for "POST" at "/account" with status 202 and body "{'status': 'error', 'errorMessage': 'CIP failed'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/account" with body "{'locationId': '38137'}"                                                      # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 202                                                                                           # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "errorMessage" as "CIP failed"                                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-001 to 004 - Registration Variations #3" classname="ExpanseFT Full Suite Automation" time="0.081">
+    <system-out><![CDATA[
+@Registration @Bulk
+Scenario Outline: TC-001 to 004 - Registration Variations                                                                         # src/test/resources/features/AccountManagement.feature:14
+  Given the API is stubbed for "POST" at "/account" with status 400 and body "{'status': 'error', 'errorMessage': 'Invalid Loc'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/account" with body "{'locationId': '38137'}"                                                       # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 400                                                                                            # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "errorMessage" as "Invalid Loc"                                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-001 to 004 - Registration Variations #4" classname="ExpanseFT Full Suite Automation" time="0.094">
+    <system-out><![CDATA[
+@Registration @Bulk
+Scenario Outline: TC-001 to 004 - Registration Variations                                                                     # src/test/resources/features/AccountManagement.feature:15
+  Given the API is stubbed for "POST" at "/account" with status 403 and body "{'status': 'error', 'errorMessage': 'Blocked'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/account" with body "{'locationId': '38137'}"                                                   # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 403                                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "errorMessage" as "Blocked"                                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #1" classname="ExpanseFT Full Suite Automation" time="0.082">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                     # src/test/resources/features/AccountManagement.feature:26
+  Given the API is stubbed for "POST" at "/transact/atm" with status 200 and body "{'status': 'Approved'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/atm" with body "{'amt': '200'}"                                    # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                     # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Approved"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #2" classname="ExpanseFT Full Suite Automation" time="0.075">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                     # src/test/resources/features/AccountManagement.feature:27
+  Given the API is stubbed for "POST" at "/transact/pos" with status 200 and body "{'status': 'Approved'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'amt': '50'}"                                     # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                     # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Approved"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #3" classname="ExpanseFT Full Suite Automation" time="0.068">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                                  # src/test/resources/features/AccountManagement.feature:28
+  Given the API is stubbed for "POST" at "/transact/int" with status 403 and body "{'error': 'International Disabled'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/int" with body "{'country': 'UK'}"                                              # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 403                                                                                  # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Disabled"                                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #4" classname="ExpanseFT Full Suite Automation" time="0.066">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                       # src/test/resources/features/AccountManagement.feature:29
+  Given the API is stubbed for "POST" at "/transact/pin" with status 401 and body "{'error': 'Invalid PIN'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pin" with body "{'pin': 'wrong'}"                                    # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 401                                                                       # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Invalid"                                                       # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #5" classname="ExpanseFT Full Suite Automation" time="0.07">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                              # src/test/resources/features/AccountManagement.feature:30
+  Given the API is stubbed for "POST" at "/transact/pos" with status 402 and body "{'error': 'Insufficient Funds'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'amt': '5000'}"                                            # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 402                                                                              # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Insufficient"                                                         # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #6" classname="ExpanseFT Full Suite Automation" time="0.075">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                                # src/test/resources/features/AccountManagement.feature:31
+  Given the API is stubbed for "POST" at "/transact/atm" with status 429 and body "{'error': 'Daily Limit Exceeded'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/atm" with body "{'amt': '2000'}"                                              # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 429                                                                                # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Limit Exceeded"                                                         # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #7" classname="ExpanseFT Full Suite Automation" time="0.059">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                      # src/test/resources/features/AccountManagement.feature:32
+  Given the API is stubbed for "POST" at "/card/activate" with status 404 and body "{'error': 'Not Found'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/activate" with body "{'card': '9999'}"                                  # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 404                                                                      # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Not Found"                                                    # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #8" classname="ExpanseFT Full Suite Automation" time="0.058">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                     # src/test/resources/features/AccountManagement.feature:33
+  Given the API is stubbed for "POST" at "/verify-otp" with status 401 and body "{'error': 'Invalid OTP'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/verify-otp" with body "{'otp': '0000'}"                                     # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 401                                                                     # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Invalid OTP"                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #9" classname="ExpanseFT Full Suite Automation" time="0.061">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:34
+  Given the API is stubbed for "POST" at "/transact/refund" with status 200 and body "{'status': 'Refunded'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/refund" with body "{'ref': 'TXN123'}"                                 # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Refunded"                                                      # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #10" classname="ExpanseFT Full Suite Automation" time="0.05">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:35
+  Given the API is stubbed for "POST" at "/transact/fee" with status 200 and body "{'feeStatus': 'Deducted'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/fee" with body "{'type': 'monthly'}"                                  # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "feeStatus" as "Deducted"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #11" classname="ExpanseFT Full Suite Automation" time="0.061">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:36
+  Given the API is stubbed for "POST" at "/transact/revert" with status 200 and body "{'status': 'Reversed'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/revert" with body "{'ref': 'TXN456'}"                                 # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Reversed"                                                      # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #12" classname="ExpanseFT Full Suite Automation" time="0.053">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:37
+  Given the API is stubbed for "POST" at "/transact/int" with status 200 and body "{'status': 'Fee Applied'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/int" with body "{'amt': '10', 'fee':1}"                               # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Fee Applied"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #13" classname="ExpanseFT Full Suite Automation" time="0.054">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                                  # src/test/resources/features/AccountManagement.feature:38
+  Given the API is stubbed for "POST" at "/admin/credit" with status 201 and body "{'status': 'Manual Credit Applied'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/admin/credit" with body "{'amt': '500'}"                                                 # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 201                                                                                  # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Manual Credit"                                                           # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #14" classname="ExpanseFT Full Suite Automation" time="0.055">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:39
+  Given the API is stubbed for "POST" at "/transact/pos" with status 403 and body "{'error': 'AVS Mismatch'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'zip': '00000'}"                                     # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 403                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "AVS Mismatch"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #15" classname="ExpanseFT Full Suite Automation" time="0.055">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                               # src/test/resources/features/AccountManagement.feature:40
+  Given the API is stubbed for "POST" at "/limit/increase" with status 202 and body "{'status': 'Pending Approval'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/limit/increase" with body "{'newLimit': '10k'}"                                       # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 202                                                                               # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Pending"                                                              # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #16" classname="ExpanseFT Full Suite Automation" time="0.05">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                           # src/test/resources/features/AccountManagement.feature:41
+  Given the API is stubbed for "POST" at "/transact/pos" with status 504 and body "{'error': 'Gateway Timeout'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'amt': '10'}"                                           # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 504                                                                           # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Timeout"                                                           # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #17" classname="ExpanseFT Full Suite Automation" time="0.055">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                        # src/test/resources/features/AccountManagement.feature:42
+  Given the API is stubbed for "POST" at "/transact/pos" with status 403 and body "{'error': 'Card Expired'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'date': '2020'}"                                     # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 403                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Expired"                                                        # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #18" classname="ExpanseFT Full Suite Automation" time="0.058">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                               # src/test/resources/features/AccountManagement.feature:43
+  Given the API is stubbed for "POST" at "/transact/mcc" with status 403 and body "{'error': 'Gambling Prohibited'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/mcc" with body "{'mcc': '7995'}"                                             # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 403                                                                               # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Prohibited"                                                            # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #19" classname="ExpanseFT Full Suite Automation" time="0.05">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                              # src/test/resources/features/AccountManagement.feature:44
+  Given the API is stubbed for "POST" at "/transact/pos" with status 503 and body "{'error': 'System Maintenance'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'amt': '10'}"                                              # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 503                                                                              # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Maintenance"                                                          # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #20" classname="ExpanseFT Full Suite Automation" time="0.049">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                           # src/test/resources/features/AccountManagement.feature:45
+  Given the API is stubbed for "POST" at "/card/pin-change" with status 200 and body "{'status': 'PIN Changed'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/pin-change" with body "{'newPin': '1234'}"                                   # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                           # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "PIN Changed"                                                      # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #21" classname="ExpanseFT Full Suite Automation" time="0.048">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                                 # src/test/resources/features/AccountManagement.feature:46
+  Given the API is stubbed for "POST" at "/transact/pos" with status 409 and body "{'error': 'Duplicate Transaction'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/transact/pos" with body "{'amt': '50'}"                                                 # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 409                                                                                 # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "error" as "Duplicate"                                                               # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #22" classname="ExpanseFT Full Suite Automation" time="0.067">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                              # src/test/resources/features/AccountManagement.feature:47
+  Given the API is stubbed for "POST" at "/admin/debit" with status 201 and body "{'status': 'Adjustment Applied'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/admin/debit" with body "{'amt': '20'}"                                               # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 201                                                                              # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "status" as "Adjustment"                                                          # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-005 to 030 - Financial, Fee, and Admin Processing #23" classname="ExpanseFT Full Suite Automation" time="0.042">
+    <system-out><![CDATA[
+@Transactions @Spending @Admin
+Scenario Outline: TC-005 to 030 - Financial, Fee, and Admin Processing                                       # src/test/resources/features/AccountManagement.feature:48
+  Given the API is stubbed for "POST" at "/bulk/order" with status 200 and body "{'delivery': 'In Transit'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/bulk/order" with body "{'qty': '100'}"                                        # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                       # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "delivery" as "In Transit"                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #1" classname="ExpanseFT Full Suite Automation" time="0.049">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                    # src/test/resources/features/AccountManagement.feature:59
+  Given the API is stubbed for "POST" at "/card/lost" with status 200 and body "{'newStatus': 'Terminated'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/lost" with body "{'cardToken': 'card_998877'}"                           # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                       # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Terminated"                                                # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #2" classname="ExpanseFT Full Suite Automation" time="0.039">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                     # src/test/resources/features/AccountManagement.feature:60
+  Given the API is stubbed for "POST" at "/card/replace" with status 200 and body "{'newStatus': 'Replaced'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/replace" with body "{'cardToken': 'card_998877'}"                         # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                        # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Replaced"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #3" classname="ExpanseFT Full Suite Automation" time="0.044">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                         # src/test/resources/features/AccountManagement.feature:61
+  Given the API is stubbed for "POST" at "/card/temp-block" with status 200 and body "{'newStatus': 'Suspended'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/temp-block" with body "{'cardToken': 'card_998877'}"                          # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                            # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Suspended"                                                      # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #4" classname="ExpanseFT Full Suite Automation" time="0.038">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                   # src/test/resources/features/AccountManagement.feature:62
+  Given the API is stubbed for "POST" at "/card/unblock" with status 200 and body "{'newStatus': 'Active'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/unblock" with body "{'cardToken': 'card_998877'}"                       # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                      # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Active"                                                   # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #5" classname="ExpanseFT Full Suite Automation" time="0.053">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                        # src/test/resources/features/AccountManagement.feature:63
+  Given the API is stubbed for "POST" at "/card/aml-hold" with status 200 and body "{'newStatus': 'Compliance'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/aml-hold" with body "{'cardToken': 'card_998877'}"                           # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                           # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Compliance"                                                    # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-031 to 034 - Card Status Transitions #6" classname="ExpanseFT Full Suite Automation" time="0.04">
+    <system-out><![CDATA[
+@Security @CardLifeCycle
+Scenario Outline: TC-031 to 034 - Card Status Transitions                                                 # src/test/resources/features/AccountManagement.feature:64
+  Given the API is stubbed for "POST" at "/card/close" with status 200 and body "{'newStatus': 'Closed'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "POST" API "/card/close" with body "{'cardToken': 'card_998877'}"                       # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                    # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "newStatus" as "Closed"                                                 # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+  <testcase name="TC-035 - Balance Inquiry" classname="ExpanseFT Full Suite Automation" time="0.073">
+    <system-out><![CDATA[
+@Transactions
+Scenario: TC-035 - Balance Inquiry                                                                                      # src/test/resources/features/AccountManagement.feature:67
+  Given the API is stubbed for "GET" at "/balance" with status 200 and body "{'balance': '1250.75', 'currency': 'USD'}" # com.expanse.steps.ExpanseSteps.universalStub(java.lang.String,java.lang.String,int,java.lang.String)
+  When I call the "GET" API "/balance" with body ""                                                                     # com.expanse.steps.ExpanseSteps.callApi(java.lang.String,java.lang.String,java.lang.String)
+  Then the response code should be 200                                                                                  # com.expanse.steps.ExpanseSteps.checkStatus(int)
+  And the response should contain "balance" as "1250.75"                                                                # com.expanse.steps.ExpanseSteps.checkBody(java.lang.String,java.lang.String)
+]]></system-out>
+  </testcase>
+</testsuite>
